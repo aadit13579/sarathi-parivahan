@@ -1,0 +1,527 @@
+[
+  {
+    "service_id": 1,
+    "service_name": "Change of Address",
+    "service_category": "Informational Services",
+    "description": "Update your address in the RTO records",
+    "fields": [
+      {
+        "id": "applicant_name",
+        "label": "Applicant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter full name"
+      },
+      {
+        "id": "aadhar_number",
+        "label": "Aadhar Card Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter 12-digit Aadhar number"
+      },
+      {
+        "id": "dl_number",
+        "label": "Driving License Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter DL number"
+      },
+      {
+        "id": "old_address",
+        "label": "Old Address",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "Enter your old complete address"
+      },
+      {
+        "id": "new_address",
+        "label": "New Address",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "Enter your new complete address"
+      },
+      {
+        "id": "phone_number",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter 10-digit phone number"
+      }
+    ]
+  },
+  {
+    "service_id": 2,
+    "service_name": "Duplicate DL",
+    "service_category": "Informational Services",
+    "description": "Apply for a duplicate driving license",
+    "fields": [
+      {
+        "id": "applicant_name",
+        "label": "Applicant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter full name"
+      },
+      {
+        "id": "aadhar_number",
+        "label": "Aadhar Card Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter 12-digit Aadhar number"
+      },
+      {
+        "id": "dl_number",
+        "label": "Original DL Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter original DL number"
+      },
+      {
+        "id": "reason",
+        "label": "Reason for Duplicate",
+        "type": "select",
+        "required": true,
+        "options": ["Lost", "Damaged", "Worn out", "Other"],
+        "placeholder": "Select reason"
+      },
+      {
+        "id": "address",
+        "label": "Current Address",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "Enter complete address"
+      }
+    ]
+  },
+  {
+    "service_id": 3,
+    "service_name": "Transfer of Ownership",
+    "service_category": "Informational Services",
+    "description": "Transfer vehicle ownership to new owner",
+    "fields": [
+      {
+        "id": "seller_name",
+        "label": "Seller Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter seller's name"
+      },
+      {
+        "id": "buyer_name",
+        "label": "Buyer Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter buyer's name"
+      },
+      {
+        "id": "vehicle_rc",
+        "label": "Vehicle Registration Certificate Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter RC number"
+      },
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      },
+      {
+        "id": "seller_aadhar",
+        "label": "Seller Aadhar Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter 12-digit Aadhar number"
+      },
+      {
+        "id": "buyer_aadhar",
+        "label": "Buyer Aadhar Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter 12-digit Aadhar number"
+      },
+      {
+        "id": "sale_date",
+        "label": "Date of Sale",
+        "type": "date",
+        "required": true
+      }
+    ]
+  },
+  {
+    "service_id": 4,
+    "service_name": "Duplicate RC",
+    "service_category": "Informational Services",
+    "description": "Apply for duplicate registration certificate",
+    "fields": [
+      {
+        "id": "owner_name",
+        "label": "Owner Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter owner's name"
+      },
+      {
+        "id": "aadhar_number",
+        "label": "Aadhar Card Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter 12-digit Aadhar number"
+      },
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      },
+      {
+        "id": "rc_number",
+        "label": "Original RC Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter original RC number"
+      },
+      {
+        "id": "reason",
+        "label": "Reason for Duplicate",
+        "type": "select",
+        "required": true,
+        "options": ["Lost", "Damaged", "Worn out", "Other"],
+        "placeholder": "Select reason"
+      }
+    ]
+  },
+  {
+    "service_id": 5,
+    "service_name": "LLR Search",
+    "service_category": "Online Services",
+    "description": "Search for Learner's License Record",
+    "fields": [
+      {
+        "id": "applicant_name",
+        "label": "Applicant Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter full name"
+      },
+      {
+        "id": "dob",
+        "label": "Date of Birth",
+        "type": "date",
+        "required": true
+      },
+      {
+        "id": "aadhar_number",
+        "label": "Aadhar Card Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter 12-digit Aadhar number"
+      }
+    ]
+  },
+  {
+    "service_id": 6,
+    "service_name": "RTO Number Search",
+    "service_category": "Online Services",
+    "description": "Search vehicle by RTO number",
+    "fields": [
+      {
+        "id": "rto_number",
+        "label": "RTO Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter RTO registration number"
+      },
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      }
+    ]
+  },
+  {
+    "service_id": 7,
+    "service_name": "e-Challan",
+    "service_category": "Online Services",
+    "description": "Check traffic violation e-Challan",
+    "fields": [
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      },
+      {
+        "id": "dl_number",
+        "label": "Driving License Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter DL number"
+      }
+    ]
+  },
+  {
+    "service_id": 8,
+    "service_name": "mParivahan",
+    "service_category": "Online Services",
+    "description": "Mobile-based vehicle and driver information",
+    "fields": [
+      {
+        "id": "phone_number",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter 10-digit phone number"
+      },
+      {
+        "id": "otp",
+        "label": "OTP",
+        "type": "text",
+        "required": false,
+        "placeholder": "OTP will be sent to your phone"
+      }
+    ]
+  },
+  {
+    "service_id": 9,
+    "service_name": "Smartcard Fitness",
+    "service_category": "Vehicle Services",
+    "description": "Vehicle fitness certificate smartcard",
+    "fields": [
+      {
+        "id": "owner_name",
+        "label": "Vehicle Owner Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter owner's name"
+      },
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      },
+      {
+        "id": "chassis_number",
+        "label": "Chassis Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter chassis number"
+      },
+      {
+        "id": "engine_number",
+        "label": "Engine Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter engine number"
+      },
+      {
+        "id": "fitness_date",
+        "label": "Fitness Valid Till",
+        "type": "date",
+        "required": true
+      }
+    ]
+  },
+  {
+    "service_id": 10,
+    "service_name": "e-Cord",
+    "service_category": "Vehicle Services",
+    "description": "Electronic Conditionality slip",
+    "fields": [
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      },
+      {
+        "id": "rc_number",
+        "label": "RC Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter RC number"
+      },
+      {
+        "id": "owner_aadhar",
+        "label": "Owner Aadhar Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter 12-digit Aadhar number"
+      }
+    ]
+  },
+  {
+    "service_id": 11,
+    "service_name": "VLP Master",
+    "service_category": "Vehicle Services",
+    "description": "Vehicle License Plate Master record",
+    "fields": [
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      },
+      {
+        "id": "owner_name",
+        "label": "Owner Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter owner's name"
+      }
+    ]
+  },
+  {
+    "service_id": 12,
+    "service_name": "e-Owner",
+    "service_category": "Vehicle Services",
+    "description": "Electronic ownership document",
+    "fields": [
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      },
+      {
+        "id": "owner_aadhar",
+        "label": "Owner Aadhar Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter 12-digit Aadhar number"
+      },
+      {
+        "id": "phone_number",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "placeholder": "Enter 10-digit phone number"
+      }
+    ]
+  },
+  {
+    "service_id": 13,
+    "service_name": "Permit Renewal",
+    "service_category": "Other Services",
+    "description": "Renew vehicle permit",
+    "fields": [
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      },
+      {
+        "id": "permit_number",
+        "label": "Current Permit Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter permit number"
+      },
+      {
+        "id": "owner_name",
+        "label": "Owner Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter owner's name"
+      },
+      {
+        "id": "permit_expiry",
+        "label": "Current Permit Expiry Date",
+        "type": "date",
+        "required": true
+      }
+    ]
+  },
+  {
+    "service_id": 14,
+    "service_name": "Violation Lookup",
+    "service_category": "Other Services",
+    "description": "Check traffic violations",
+    "fields": [
+      {
+        "id": "dl_number",
+        "label": "Driving License Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter DL number"
+      },
+      {
+        "id": "dob",
+        "label": "Date of Birth",
+        "type": "date",
+        "required": true
+      }
+    ]
+  },
+  {
+    "service_id": 15,
+    "service_name": "Tax Info",
+    "service_category": "Other Services",
+    "description": "Vehicle tax information and payment",
+    "fields": [
+      {
+        "id": "vehicle_number",
+        "label": "Vehicle Registration Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter vehicle registration plate number"
+      },
+      {
+        "id": "owner_aadhar",
+        "label": "Owner Aadhar Number",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter 12-digit Aadhar number"
+      }
+    ]
+  },
+  {
+    "service_id": 16,
+    "service_name": "Feedback",
+    "service_category": "Other Services",
+    "description": "Submit feedback about our services",
+    "fields": [
+      {
+        "id": "name",
+        "label": "Your Name",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter your name"
+      },
+      {
+        "id": "email",
+        "label": "Email Address",
+        "type": "email",
+        "required": true,
+        "placeholder": "Enter your email"
+      },
+      {
+        "id": "feedback",
+        "label": "Your Feedback",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "Please share your feedback with us"
+      },
+      {
+        "id": "rating",
+        "label": "Service Rating",
+        "type": "select",
+        "required": true,
+        "options": ["Excellent", "Good", "Average", "Poor"],
+        "placeholder": "Rate our service"
+      }
+    ]
+  }
+]
